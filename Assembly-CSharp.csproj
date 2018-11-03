@@ -66,6 +66,7 @@
     <Compile Include="Assets\_Funcionalidades\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\_Funcionalidades\Scripts\Managers\Spawn.cs" />
     <Compile Include="Assets\_Funcionalidades\Scripts\Managers\TankManager.cs" />
+    <Compile Include="Assets\_Funcionalidades\Scripts\Tank\Colidir.cs" />
     <Compile Include="Assets\_Funcionalidades\Scripts\Tank\TankMovement.cs" />
     <Compile Include="Assets\_Funcionalidades\Scripts\UI\UIDirectionControl.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />

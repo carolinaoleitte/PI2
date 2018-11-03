@@ -9,7 +9,7 @@ namespace Complete
     {
         public CameraControl m_CameraControl;
         public Text m_MessageText;
-        public GameObject m_TankPrefab = null;
+        public GameObject m_TankPrefab;
         public TankManager[] m_Tanks;
 
         private void Start()

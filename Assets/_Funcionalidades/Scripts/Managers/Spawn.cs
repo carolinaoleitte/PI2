@@ -18,7 +18,9 @@ public class Spawn : MonoBehaviour {
     }
     public void Spawn_Obj()
     {
+        //Vector3 tamanho = new Vector3 (20, 20, 20);
         Vector3 pos = new Vector3(Random.Range(-size.x, size.x), 0, Random.Range(-size.z, size.z));
         Instantiate(obj, pos, Quaternion.identity);
+        //obj.transform.localScale = tamanho;
     }
 }
